@@ -1,0 +1,13 @@
+!!python/object:kokki.kitchen.Kitchen
+config: !!python/object:kokki.utils.AttributeDictionary
+  date: 2012-04-16 14:52:39.865019
+  kokki: !!python/object:kokki.utils.AttributeDictionary
+    backup: !!python/object:kokki.utils.AttributeDictionary {path: /tmp/kokki/backup,
+      prefix: '20120416145239'}
+    long_version: 'Kokki version 0.4.1 : http://github.com/samuel/kokki'
+  test: !!python/object:kokki.utils.AttributeDictionary {config1: fu, config2: manchu}
+cookbook_paths: [kokki.cookbooks, /home/xleap/src/kokki/tests/cookbooks]
+delayed_actions: !!set {}
+included_recipes: [jenkins]
+resource_list: []
+resources: {}
